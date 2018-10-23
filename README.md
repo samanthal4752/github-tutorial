@@ -31,11 +31,11 @@ Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
 7. Use ```git remote-v``` to show you where you sent your commits to after you git pushed
 
 ---
-## Workflow & Commands
-**Status**```git status```- Git status is to see which files you staged in the commit 
+## Workflow & Commands  
+**Status**-```git status```is to see which files you staged in the commit 
 You will see something like: ```On branch master
 Your branch is ahead of 'origin/master' by 1 commit.```  
-**Add**```git add .```- Adds the directory to the repository with the changes you made  
+**Add**-```git add .``` Adds the directory to the repository with the changes you made  
 **Commit**```git commit -m " "```- Git commit is when you are saving all of the files in stage for the repository
 You will see something like: ```[master 3defaca] github-tutorial
  1 file changed, 31 insertions(+), 6 deletions(-)```  
@@ -49,7 +49,7 @@ Total 3 (delta 0), reused 0 (delta 0)
 To github.com:samanthal4752/github-tutorial.git
    a2758df..3defaca  master -> master```  
 ---
-## Rolling Back Changes
+## Rolling Back Changes  
 Undo edit- To undo edit you will have to use ```git checkout file name```  
 Undo add- To undo add you will have to ```git reset "FILE-NAME"```  
 Undo commit-To undo commit you will have to ```git reset --soft HEAD~1```  
