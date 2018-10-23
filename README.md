@@ -65,7 +65,6 @@ To completely remove a repository, you have to use ```git remove rm```
 ---
 ## Collaboration
 **Fork**- Forking is when you are copying the other person's remote and getting your own remote. After forking, you can push into your remote. 
-
 **Clone**- Cloning then copies your remote onto your workspace using ```git clone URL```  
 **Pull Request**- Pull request is notifing the person that what you pushed to their Github Repository. Before submitting a pull request, you have to fork and clone their repository to your local repository. Then after you made your changes, you have to commit and push onto your repository.   
 **Pull**-```git pull``` bring changes from the remote repo down to your local repo.
