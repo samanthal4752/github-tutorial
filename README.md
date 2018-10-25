@@ -32,6 +32,7 @@ Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
 
 ---
 ## Workflow & Commands  
+
 **Status** -```git status```is to see which files you staged in the commit 
 You will see something like: ```On branch master
 Your branch is ahead of 'origin/master' by 1 commit.```  
@@ -50,6 +51,7 @@ To github.com:samanthal4752/github-tutorial.git
    a2758df..3defaca  master -> master```  
 ---
 ## Rolling Back Changes  
+
 Undo edit- To undo edit you will have to use ```git checkout file name```  
 Undo add- To undo add you will have to ```git reset "FILE-NAME"```  
 Undo commit-To undo commit you will have to ```git reset --soft HEAD~1```  
