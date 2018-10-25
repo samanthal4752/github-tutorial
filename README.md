@@ -36,10 +36,13 @@ Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
 **Status** -```git status```is to see which files you staged in the commit 
 You will see something like: ```On branch master
 Your branch is ahead of 'origin/master' by 1 commit.```  
+
 **Add** -```git add .``` Adds the directory to the repository with the changes you made  
+
 **Commit** ```git commit -m " "``` - Git commit is when you are saving all of the files in stage for the repository
 You will see something like: ```[master 3defaca] github-tutorial
  1 file changed, 31 insertions(+), 6 deletions(-)```  
+
 **Push** -```git push``` is to publish your local commits   
 You will see something like:```Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
 Counting objects: 3, done.
