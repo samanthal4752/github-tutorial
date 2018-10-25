@@ -53,6 +53,7 @@ Writing objects: 100% (3/3), 1.12 KiB | 1.12 MiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To github.com:samanthal4752/github-tutorial.git
    a2758df..3defaca  master -> master```  
+   
 ---
 ## Rolling Back Changes  
 
@@ -63,10 +64,13 @@ To github.com:samanthal4752/github-tutorial.git
 **Undo commit** -To undo commit you will have to ```git reset --soft HEAD~1```  
 
 **Undo push** - To undo push you will have to ```git log``` then ```git revert```
+
 ---
 ## What to do if you did ```init``` wrong in a directory:   
 
 If you used git init wrong in a directory, use ```rm -rf .git```. 
+
+---
 
 ## How to completely remove a repository (local&remote)
 To completely remove a repository, you have to use ```git remove rm```
@@ -78,5 +82,7 @@ To completely remove a repository, you have to use ```git remove rm```
 **Clone** - Cloning then copies your remote onto your workspace using ```git clone URL```    
 **Pull Request** - Pull request is notifing the person that what you pushed to their Github Repository. Before submitting a pull request, you have to fork and clone their repository to your local repository. Then after you made your changes, you have to commit and push onto your repository.   
 **Pull** -```git pull``` bring changes from the remote repo down to your local repo.
+
+---
 
 
