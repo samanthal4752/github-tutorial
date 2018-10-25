@@ -11,24 +11,26 @@ _by Samantha Lui_
 ---
 ## Initial Setup
 **Making a Github account**-  
-1. Log into [Github.com](https://github.com/)
-2. Make sure your github and c9 are connected. If it's not,go to your [c9](https://c9.io/) and go to the settings. Scroll to connected services and press connect when you see github.
-3. Create a workspace dedicated to github
-4. For auto save, you will have to go to the settings in c9 and click preferences. After that, you have to click Experimental then Files. You should see Auto-Focus and switch it to **On focus change**. If you don't want it to auto save and do it manually, You can use ctrl+S to save the changes.  
+1. Go to [Github.com](https://github.com/)
+2. [Create an account](https://github.com/join?source=header-home) or [Login](https://github.com/login?return_to=%2Fjoin%3Fsource%3Dheader-home)
+3. Make sure your github and c9 are connected. If it's not,go to your [c9](https://c9.io/) and go to the settings. Scroll to connected services and press connect when you see github.
+4. Create a workspace dedicated to github in c9
+5. For auto save, you will have to go to the settings in c9 and click preferences. After that, you have to click Experimental then Files. You should see Auto-Focus and switch it to **On focus change**. If you don't want it to auto save and do it manually, You can use ctrl+S to save the changes.  
 
 **SSH Key**-   
 Your SSH key is used to clone files. You will have to input your SSH in the URL part of ```git clone URL```.
-Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
+Your SSH key will look something like: git@github.com:YOURUSERNAME/FILENAME.git
 
 ---
 ## Repository Setup
 1. Log onto your [github](https://github.com) account  
 2. Click on New repository
 3. Make a file with the **same** name as the one in c9
-4. **Init** - With ```Git init``` you are initializing git into your repository  
-5. **Your first add** - Use ```git add file``` to add your files to the stage in order to be commited  
-6. **Your first commit** - After adding your file, use ```git commit -m " "``` to save your changes to your repository. In the quotation marks, you have to write a message describing your file.  
-7. Use ```git remote-v``` to show you where you sent your commits to after you git pushed
+4. Choose a Public or Private Repository
+5. **Init** - With ```Git init``` you are initializing git into your repository  
+6. **Your first add** - Use ```git add file``` to add your files to the stage in order to be commited  
+7. **Your first commit** - After adding your file, use ```git commit -m " "``` to save your changes to your repository. In the quotation marks, you have to write a message describing your file.  
+8. Use ```git remote-v``` to show you where you sent your commits to after you git pushed
 
 ---
 ## Workflow & Commands  
