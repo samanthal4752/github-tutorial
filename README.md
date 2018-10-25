@@ -32,14 +32,14 @@ Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
 
 ---
 ## Workflow & Commands  
-**Status**-```git status```is to see which files you staged in the commit 
+**Status** -```git status```is to see which files you staged in the commit 
 You will see something like: ```On branch master
 Your branch is ahead of 'origin/master' by 1 commit.```  
-**Add**-```git add .``` Adds the directory to the repository with the changes you made  
-**Commit**```git commit -m " "```- Git commit is when you are saving all of the files in stage for the repository
+**Add** -```git add .``` Adds the directory to the repository with the changes you made  
+**Commit** ```git commit -m " "``` - Git commit is when you are saving all of the files in stage for the repository
 You will see something like: ```[master 3defaca] github-tutorial
  1 file changed, 31 insertions(+), 6 deletions(-)```  
-**Push**-```git push``` is to publish your local commits   
+**Push** -```git push``` is to publish your local commits   
 You will see something like:```Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
 Counting objects: 3, done.
 Delta compression using up to 8 threads.
@@ -64,9 +64,10 @@ To completely remove a repository, you have to use ```git remove rm```
 
 ---
 ## Collaboration
-**Fork**- Forking is when you are copying the other person's remote and getting your own remote. After forking, you can push into your remote. 
-**Clone**- Cloning then copies your remote onto your workspace using ```git clone URL```  
-**Pull Request**- Pull request is notifing the person that what you pushed to their Github Repository. Before submitting a pull request, you have to fork and clone their repository to your local repository. Then after you made your changes, you have to commit and push onto your repository.   
-**Pull**-```git pull``` bring changes from the remote repo down to your local repo.
+
+**Fork** - Forking is when you are copying the other person's remote and getting your own remote. After forking, you can push into your remote.    
+**Clone** - Cloning then copies your remote onto your workspace using ```git clone URL```    
+**Pull Request** - Pull request is notifing the person that what you pushed to their Github Repository. Before submitting a pull request, you have to fork and clone their repository to your local repository. Then after you made your changes, you have to commit and push onto your repository.   
+**Pull** -```git pull``` bring changes from the remote repo down to your local repo.
 
 
