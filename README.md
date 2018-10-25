@@ -23,11 +23,11 @@ Your SSH key will look something like: git@github.com:YOURUSERNAME/FILE-NAME.git
 ---
 ## Repository Setup
 1. Log onto your [github](https://github.com) account  
-2. Click New repository
+2. Click on New repository
 3. Make a file with the **same** name as the one in c9
-4. **Init**-With ```Git init``` you are initializing git into your repository  
-5. **Your first add**-Use ```git add file``` to add your files to the stage in order to be commited  
-6. **Your first commit**-After adding your file, use ```git commit -m " "``` to save your changes to your repository. In the quotation marks, you have to write a message describing your file.  
+4. **Init** - With ```Git init``` you are initializing git into your repository  
+5. **Your first add** - Use ```git add file``` to add your files to the stage in order to be commited  
+6. **Your first commit** - After adding your file, use ```git commit -m " "``` to save your changes to your repository. In the quotation marks, you have to write a message describing your file.  
 7. Use ```git remote-v``` to show you where you sent your commits to after you git pushed
 
 ---
@@ -40,6 +40,7 @@ Your branch is ahead of 'origin/master' by 1 commit.```
 **Add** -```git add .``` Adds the directory to the repository with the changes you made  
 
 **Commit** ```git commit -m " "``` - Git commit is when you are saving all of the files in stage for the repository
+
 You will see something like: ```[master 3defaca] github-tutorial
  1 file changed, 31 insertions(+), 6 deletions(-)```  
 
@@ -68,7 +69,7 @@ To github.com:samanthal4752/github-tutorial.git
 ---
 ## What to do if you did ```init``` wrong in a directory:   
 
-If you used git init wrong in a directory, use ```rm -rf .git```. 
+If you used git init wrong in a directory, use ```rm -rf .git``` 
 
 ---
 
