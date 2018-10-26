@@ -4,9 +4,9 @@ _by Samantha Lui_
 
 ---
 ## Git vs. GitHub
-**Git**-Keeps snapshots of the code and does not require github to function.
+**Git** - Keeps snapshots of the code and does not require github to function.
 
-**Github**- Github requires git to save files/code. It stores code in the cloud.
+**Github** - Github requires git to save files/code. It stores code in the cloud.
 
 ---
 ## Initial Setup
@@ -41,7 +41,7 @@ Your branch is ahead of 'origin/master' by 1 commit.```
 
 **Add** -```git add .``` Adds the directory to the repository with the changes you made  
 
-**Commit** ```git commit -m " "``` - Git commit is when you are saving all of the files in stage for the repository
+**Commit** - ```git commit -m " "```  Git commit is when you are saving all of the files in stage for the repository
 
 You will see something like: ```[master 3defaca] github-tutorial
  1 file changed, 31 insertions(+), 6 deletions(-)```  
@@ -64,7 +64,7 @@ To github.com:samanthal4752/github-tutorial.git
 
 **Undo add** - To undo add you will have to ```git reset "FILE-NAME"```  
 
-**Undo commit** -To undo commit you will have to ```git reset --soft HEAD~1```  
+**Undo commit** - To undo commit you will have to ```git reset --soft HEAD~1```  
 
 **Undo push** - To undo push you will have to ```git log``` then ```git revert```
 
@@ -82,9 +82,9 @@ To completely remove a repository, you have to use ```git remove rm```
 ## Collaboration
 
 **Fork** - Forking is when you are copying the other person's remote and getting your own remote. After forking, you can push into your remote.    
-**Clone** - Cloning then copies your remote onto your workspace using ```git clone URL```    
+**Clone** - Cloning copies your remote onto your workspace using ```git clone URL```    
 **Pull Request** - Pull request is notifing the person that what you pushed to their Github Repository. Before submitting a pull request, you have to fork and clone their repository to your local repository. Then after you made your changes, you have to commit and push onto your repository.   
-**Pull** -```git pull``` bring changes from the remote repo down to your local repo.
+**Pull** - ```git pull``` bring changes from the remote repo down to your local repo.
 
 ---
 
